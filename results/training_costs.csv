@@ -1,0 +1,5 @@
+model,approach,training_hours_label,actual_train_hours,n_train_samples,wall_clock_hours,best_wer_periodic_eval,best_step,global_step_at_end,best_step_fraction_of_run,wer0,relative_periodic_eval_reduction_from_wer0,source_file
+Qwen2-Audio,end-to-end,10,10.001133611111118,7899,2.0942992117007573,0.502373417721519,600,900,0.6666666666666666,1.2479468126710989,0.5974400410172598,/Users/mac/Downloads/results 3/training_cost_10h.json
+Qwen2-Audio,end-to-end,30,30.00122777777774,23588,8.886277908285459,0.3973172987974098,2200,2800,0.7857142857142857,1.2479468126710989,0.6816232112112263,/Users/mac/Downloads/results 3/training_cost_30h.json
+Whisper large-v3,cascaded,10,10.000894166666663,7892,2.2159331958823736,0.3435213086526044,1000,1300,0.7692307692307693,0.7714162720619888,0.5546875,/Users/mac/Downloads/results 3/training_cost_whisper_10h.json
+Whisper large-v3,cascaded,30,30.000023333333317,23490,3.4112414167986977,0.33008730691739424,1400,2000,0.7,0.8258898589657488,0.6003252693636918,/Users/mac/Downloads/results 3/training_cost_whisper_30h.json

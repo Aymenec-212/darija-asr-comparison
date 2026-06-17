@@ -1,0 +1,14 @@
+model,training_hours,phase,dataset,source_file,summary_wer,recomputed_wer_from_details,abs_delta,n_detail_records,validation_note
+Qwen2-Audio,0,zero-shot strict prompt,moulsot_test,/Users/mac/Downloads/results 3/zero_shot_results_80h.json,1.181480866146093,1.181480866146093,0.0,1962,WER recomputed from norm_ref/norm_pred full detail rows
+Qwen2-Audio,0,zero-shot Darija prompt,moulsot_test,/Users/mac/Downloads/results 3/zero_shot_results_80h.json,1.058952206900371,1.058952206900371,0.0,1962,WER recomputed from norm_ref/norm_pred full detail rows
+Qwen2-Audio,0,zero-shot strict prompt,casablanca_ood,/Users/mac/Downloads/results 3/zero_shot_results_80h.json,1.3139655172413793,1.3139655172413793,0.0,500,WER recomputed from norm_ref/norm_pred full detail rows
+Qwen2-Audio,10,fine-tuned 10h,moulsot_test,/Users/mac/Downloads/results 3/final_results_10h.json,0.5776153292351996,0.5776153292351996,0.0,1962,WER recomputed from norm_ref/norm_pred full detail rows
+Qwen2-Audio,10,fine-tuned 10h,casablanca_ood,/Users/mac/Downloads/results 3/final_results_10h.json,0.723448275862069,0.723448275862069,0.0,500,WER recomputed from norm_ref/norm_pred full detail rows
+Qwen2-Audio,30,fine-tuned 30h,moulsot_test,/Users/mac/Downloads/results 3/final_results_30h.json,0.4758265492606745,0.4758265492606745,0.0,1962,WER recomputed from norm_ref/norm_pred full detail rows
+Qwen2-Audio,30,fine-tuned 30h,casablanca_ood,/Users/mac/Downloads/results 3/final_results_30h.json,0.6398275862068965,0.6398275862068965,0.0,500,WER recomputed from norm_ref/norm_pred full detail rows
+Whisper large-v3,0,zero-shot greedy,moulsot_test,/Users/mac/Downloads/zero_shot_results_whisper_lv3.json,0.8485351941075483,0.8485351941075483,0.0,1962,WER recomputed from norm_ref/norm_pred full detail rows
+Whisper large-v3,0,zero-shot greedy,casablanca_ood,/Users/mac/Downloads/zero_shot_results_whisper_lv3.json,0.9662068965517241,0.9662068965517241,0.0,500,WER recomputed from norm_ref/norm_pred full detail rows
+Whisper large-v3,10,fine-tuned 10h,moulsot_test,/Users/mac/Downloads/results 3/final_test_whisper_10h_summary.json,0.4013940366211208,0.4013940366211208,0.0,1962,WER recomputed from norm_ref/norm_pred full detail rows
+Whisper large-v3,10,fine-tuned 10h,casablanca_ood,/Users/mac/Downloads/results 3/final_casablanca_ood_whisper_10h_summary.json,0.6112155924089588,0.6112155924089588,0.0,500,WER recomputed from norm_ref/norm_pred full detail rows
+Whisper large-v3,30,fine-tuned 30h,moulsot_test,/Users/mac/Downloads/results 3/final_test_whisper_30h_summary.json,0.3922940753443602,0.3922940753443602,0.0,1962,WER recomputed from norm_ref/norm_pred full detail rows
+Whisper large-v3,30,fine-tuned 30h,casablanca_ood,/Users/mac/Downloads/results 3/final_casablanca_ood_whisper_30h_summary.json,0.5891605402632929,0.5891605402632929,0.0,500,WER recomputed from norm_ref/norm_pred full detail rows

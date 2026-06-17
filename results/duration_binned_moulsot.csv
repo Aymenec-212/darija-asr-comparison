@@ -1,0 +1,25 @@
+model,training_hours,phase,dataset,duration_bin,n,wer,exact_match_rate
+Qwen2-Audio,0,zero-shot Darija prompt,moulsot_test,0-2s,133,1.0969162995594715,0.0
+Qwen2-Audio,0,zero-shot Darija prompt,moulsot_test,2-5s,860,1.0679946879150066,0.0011627906976744186
+Qwen2-Audio,0,zero-shot Darija prompt,moulsot_test,5-10s,385,1.0379663688912244,0.0
+Qwen2-Audio,0,zero-shot Darija prompt,moulsot_test,10-20s,584,1.062579198752315,0.0
+Qwen2-Audio,10,fine-tuned 10h,moulsot_test,0-2s,133,0.6475770925110133,0.13533834586466165
+Qwen2-Audio,10,fine-tuned 10h,moulsot_test,2-5s,860,0.5616201859229748,0.03488372093023256
+Qwen2-Audio,10,fine-tuned 10h,moulsot_test,5-10s,385,0.5760641093011035,0.0025974025974025974
+Qwen2-Audio,10,fine-tuned 10h,moulsot_test,10-20s,584,0.5825129154888391,0.0
+Qwen2-Audio,30,fine-tuned 30h,moulsot_test,0-2s,133,0.5154185022026432,0.22556390977443608
+Qwen2-Audio,30,fine-tuned 30h,moulsot_test,2-5s,860,0.46799468791500665,0.06627906976744186
+Qwen2-Audio,30,fine-tuned 30h,moulsot_test,5-10s,385,0.47346295323173937,0.0025974025974025974
+Qwen2-Audio,30,fine-tuned 30h,moulsot_test,10-20s,584,0.47870162783897063,0.0
+Whisper large-v3,0,zero-shot greedy,moulsot_test,0-2s,133,0.6343612334801763,0.15789473684210525
+Whisper large-v3,0,zero-shot greedy,moulsot_test,2-5s,860,0.801593625498008,0.026744186046511628
+Whisper large-v3,0,zero-shot greedy,moulsot_test,5-10s,385,0.9060693641618497,0.01038961038961039
+Whisper large-v3,0,zero-shot greedy,moulsot_test,10-20s,584,0.8491568378984307,0.0
+Whisper large-v3,10,fine-tuned 10h,moulsot_test,0-2s,133,0.42290748898678415,0.2781954887218045
+Whisper large-v3,10,fine-tuned 10h,moulsot_test,2-5s,860,0.4074466675500199,0.1
+Whisper large-v3,10,fine-tuned 10h,moulsot_test,5-10s,385,0.4187664041994751,0.025974025974025976
+Whisper large-v3,10,fine-tuned 10h,moulsot_test,10-20s,584,0.3922466273803146,0.0017123287671232876
+Whisper large-v3,30,fine-tuned 30h,moulsot_test,0-2s,133,0.3964757709251101,0.3533834586466165
+Whisper large-v3,30,fine-tuned 30h,moulsot_test,2-5s,860,0.42056446270041076,0.09767441860465116
+Whisper large-v3,30,fine-tuned 30h,moulsot_test,5-10s,385,0.4048556430446194,0.025974025974025976
+Whisper large-v3,30,fine-tuned 30h,moulsot_test,10-20s,584,0.37714897969122874,0.0017123287671232876

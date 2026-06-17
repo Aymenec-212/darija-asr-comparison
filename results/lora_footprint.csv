@@ -1,0 +1,5 @@
+model,training_hours,rank,alpha,dropout,use_rslora,target_modules_spec,lora_matrix_names,estimated_base_target_modules,encoder_modules,decoder_modules,other_modules,source_file
+Qwen2-Audio,10,32,32,0.1,True,all-linear,836,418.0,,,,/Users/mac/Downloads/results 3/lora_targets_10h.json
+Qwen2-Audio,30,32,32,0.1,True,all-linear,836,418.0,,,,/Users/mac/Downloads/results 3/lora_targets_30h.json
+Whisper large-v3,10,,,,,encoder+decoder linear modules,,512,192,320,0,/Users/mac/Downloads/results 3/lora_targets_whisper_10h.json
+Whisper large-v3,30,,,,,encoder+decoder linear modules,,512,192,320,0,/Users/mac/Downloads/results 3/lora_targets_whisper_30h.json
