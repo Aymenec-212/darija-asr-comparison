@@ -1,0 +1,40 @@
+# =============================================================================
+# Darija-ASR · pinned dependencies
+# =============================================================================
+# These are the minimum-tested versions. The notebooks pin to >= in pip install
+# cells; this file is the verified-working ceiling.
+#
+# Tested on:
+#   - RunPod template: runpod/pytorch:2.4.0-py3.11-cuda12.4.1-devel-ubuntu22.04
+#   - GPU: NVIDIA A40 (48 GB VRAM)
+#   - Python: 3.11
+#   - torch: 2.4.0+cu124 (preinstalled in the RunPod image — do NOT reinstall)
+
+# --- Core ML stack ---
+transformers>=4.46.0,<5.0
+peft>=0.11.0,<0.20.0
+accelerate>=0.30.0,<2.0.0
+datasets>=2.18.0,<4.0.0
+safetensors>=0.4.0
+
+# --- Audio I/O ---
+# torchcodec is required by datasets>=3.0 for Audio column decoding.
+# Needs ffmpeg installed at system level: `apt-get install -y ffmpeg`
+torchcodec>=0.1.0
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# --- Metrics & statistics ---
+jiwer>=3.0.0
+scipy>=1.10.0
+numpy>=1.24.0,<2.2.0          # transformers compat ceiling
+
+# --- HF Hub interaction ---
+huggingface_hub>=0.23.0
+
+# --- Plotting ---
+matplotlib>=3.7.0
+
+# --- Optional, for development only ---
+# nbformat>=5.9.0
+# nbconvert>=7.0.0
