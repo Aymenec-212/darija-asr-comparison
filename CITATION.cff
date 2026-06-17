@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+title: >-
+  Darija-ASR: A Controlled Comparison of End-to-End and
+  Cascaded Architectures for Moroccan Darija Speech
+  Recognition
+message: >-
+  If you use this code or the fine-tuned models, please
+  cite this repository and the supporting frameworks
+  (Marco-ASR, Casablanca normalization, base models).
+type: software
+authors:
+  - family-names: Ouhmd
+    given-names: Souhail
+    orcid: 'https://orcid.org/0000-0000-0000-0000'  # TODO: replace with your ORCID if you have one
+repository-code: 'https://github.com/Tilas/darija-asr-comparison'
+url: 'https://github.com/Tilas/darija-asr-comparison'
+abstract: >-
+  Phase 1 of a PFE comparing an end-to-end audio-LLM
+  (Qwen2-Audio-7B-Instruct) against a cascaded ASR
+  encoder-decoder (Whisper-Large-v3) for Moroccan Darija
+  speech recognition. Both models are fine-tuned with LoRA
+  on MoulSot under the Marco-ASR adaptive learning-rate
+  framework, with statistically rigorous evaluation
+  (paired-bootstrap CIs, code-switching partitioning, OOD
+  generalization). Whisper-LV3 outperforms Qwen2-Audio-7B
+  at every training scale and on every partition,
+  including OOD audio, while training 2.6x faster.
+keywords:
+  - speech-recognition
+  - asr
+  - moroccan-darija
+  - arabic
+  - whisper
+  - qwen2-audio
+  - lora
+  - peft
+  - low-resource-asr
+  - code-switching
+  - marco-asr
+license: MIT
+date-released: '2026-06-17'  # TODO: update on final release
+version: '1.0.0'
+references:
+  - type: article
+    title: >-
+      Marco-ASR: A Principled and Metric-Driven Framework
+      for Fine-Tuning Large-Scale ASR Models for Domain
+      Adaptation
+    authors:
+      - family-names: Ni
+        given-names: et al.
+    year: 2025
+    identifiers:
+      - type: other
+        value: 'arXiv:2512.22165'
+  - type: conference-paper
+    title: >-
+      Casablanca: Data and Models for Multidialectal Arabic
+      Speech Recognition
+    authors:
+      - family-names: Talafha
+        given-names: Bashar
+      - family-names: et al.
+    conference:
+      name: EMNLP
+    year: 2024
+    identifiers:
+      - type: other
+        value: 'arXiv:2410.04527'
