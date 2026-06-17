@@ -9,8 +9,8 @@ message: >-
   (Marco-ASR, Casablanca normalization, base models).
 type: software
 authors:
-  - family-names: Ouhmd
-    given-names: Souhail
+  - family-names: Echchalim
+    given-names: Aymen
     orcid: 'https://orcid.org/0000-0000-0000-0000'  # TODO: replace with your ORCID if you have one
 repository-code: 'https://github.com/Tilas/darija-asr-comparison'
 url: 'https://github.com/Tilas/darija-asr-comparison'
